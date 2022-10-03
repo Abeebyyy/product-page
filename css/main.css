@@ -57,7 +57,12 @@ footer {
 
 /* Add media query for tablet */
 
+@media only screen and (min-width: 38em){
 
+}
 
 
 /* Add media query for desktop */
+@media only screen and (min-width: 60em){
+
+}
