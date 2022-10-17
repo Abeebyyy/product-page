@@ -30,7 +30,10 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #75A16A;
+}
 
+.begin {
+  margin: 3em;
 }
 
 h2 {
@@ -117,7 +120,8 @@ img {
 header nav ul {
   list-style-type: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
+  jtext
 }
 
 header nav ul li a {
@@ -125,7 +129,6 @@ header nav ul li a {
   font-weight: bold;
   text-decoration: none;
   font-family: "Inder", sans-serif;
-  font-size: 1.1em;
 }
 
 header nav ul li a:hover,
@@ -139,6 +142,12 @@ footer {
   font-family: "Inder", sans-serif;
   background-color: #75A16A;
 }
+
+strong {
+    color: white;
+}
+
+
 
 
 /* Default styling for all screens ends here */
@@ -154,9 +163,6 @@ footer {
     "feature img4"
     ;
     display: grid;
-    grid-template-columns: 76% 24%;
-    border-radius: 1;
-    grid-gap: .25em;
   }
 
   .details {
@@ -164,17 +170,26 @@ footer {
     grid-template-columns: 1fr 1fr;
     margin:2em;
     grid-gap: 2em;
-}
+  }
 
-.cart {
+  .button {
   margin: auto;
+  }
+
+  .peoplealso h4 {
+    padding-left: 2em;
+  }
+
+  .browse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .1em;
+  }
+
+.browse img {
+  width: 80%;
 }
-
-section {
-
-}
-
-
 
 
 
@@ -183,5 +198,22 @@ section {
 
 /* Add media query for desktop */
 @media only screen and (min-width: 60em){
+
+
+
+  .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:2em;
+    grid-gap: 2em;
+  }
+
+  .button {
+    margin: auto;
+  }
+
+  .browse {
+
+  }
 
 }
