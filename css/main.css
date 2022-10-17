@@ -12,12 +12,12 @@ html {
 
 body {
   margin: 0;
+  line-height: 1.25em;
   /* include your font family and default line-height */
 }
 
 img {
   width: 100%;
-  display: block;
 }
 
 .wrapper {
@@ -31,11 +31,29 @@ header {
   align-items: center;
 }
 
+h2 {
+  font-family: "Inder", sans-serif;
+}
+
+h3 {
+  font-family: "Inder", sans-serif;
+}
+
+p {
+  font-family: "Istok Web", sans-serif;
+  font-size: .9em;
+}
+
+li {
+  font-family: "Istok Web", sans-serif;
+  font-size: .9em;
+}
+
 .images {
   display: grid;
   grid-template-columns: 76% 24%;
-  border-radius: 1.5;
-  grid-gap: 1.25em;
+  border-radius: 1;
+  grid-gap: .25em;
   grid-template-areas:
     "feature img2"
     "feature img3"
@@ -80,6 +98,7 @@ header nav ul li a:focus {
 
 footer {
   text-align: center;
+  font-family: "Inder", sans-serif;
 }
 
 
