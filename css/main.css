@@ -108,7 +108,7 @@ img {
 }
 
 .browse img {
-  width: 50%;
+  width: 70%;
   justify-content: center;
   display: grid;
   margin: auto;
@@ -158,6 +158,26 @@ footer {
     border-radius: 1;
     grid-gap: .25em;
   }
+
+  .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:2em;
+    grid-gap: 2em;
+}
+
+.cart {
+  margin: auto;
+}
+
+section {
+
+}
+
+
+
+
+
 }
 
 
